@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "Paul Boyfield is one of the UK's most experienced planning communications and political strategy advisers, with over 25 years' experience across residential, regeneration and infrastructure projects." },
       { property: "og:title", content: "About Paul Boyfield" },
       { property: "og:description", content: "Over 25 years advising on planning, development, regeneration and infrastructure." },
-      { property: "og:image", content: portrait },
+      { property: "og:image", content: portrait.url },
     ],
   }),
   component: About,
