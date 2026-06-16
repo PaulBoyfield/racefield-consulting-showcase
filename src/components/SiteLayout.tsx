@@ -92,7 +92,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <ul className="mt-4 space-y-2 text-sm text-primary-foreground/90">
               <li>Paul Boyfield</li>
               <li>paul@racefieldconsulting.co.uk</li>
-              <li>+44 (0)20 0000 0000</li>
+              <li><a href="tel:+447917764148" className="link-underline">07917 764 148</a></li>
               <li>
                 <Link to="/contact" className="link-underline">Arrange a conversation →</Link>
               </li>
