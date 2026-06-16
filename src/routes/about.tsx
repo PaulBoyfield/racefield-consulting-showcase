@@ -36,7 +36,7 @@ function About() {
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5">
           <div className="aspect-[3/4] overflow-hidden bg-muted">
-            <img src={portrait} alt="Paul Boyfield" loading="lazy" width={1200} height={1600} className="h-full w-full object-cover" />
+            <img src={portrait.url} alt="Paul Boyfield" loading="lazy" width={1200} height={1600} className="h-full w-full object-cover" />
           </div>
           <div className="mt-6 text-sm text-muted-foreground">Paul Boyfield, Founder &amp; Principal</div>
         </div>
