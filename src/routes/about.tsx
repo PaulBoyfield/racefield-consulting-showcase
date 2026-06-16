@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout, PageHero } from "@/components/SiteLayout";
-import portrait from "@/assets/paul-portrait.jpg";
+import portrait from "@/assets/paul-portrait-web.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "Paul Boyfield is one of the UK's most experienced planning communications and political strategy advisers, with over 25 years' experience across residential, regeneration and infrastructure projects." },
       { property: "og:title", content: "About Paul Boyfield" },
       { property: "og:description", content: "Over 25 years advising on planning, development, regeneration and infrastructure." },
-      { property: "og:image", content: portrait },
+      { property: "og:image", content: portrait.url },
     ],
   }),
   component: About,
@@ -36,7 +36,7 @@ function About() {
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5">
           <div className="aspect-[3/4] overflow-hidden bg-muted">
-            <img src={portrait} alt="Paul Boyfield" loading="lazy" width={1200} height={1600} className="h-full w-full object-cover" />
+            <img src={portrait.url} alt="Paul Boyfield" loading="lazy" width={1200} height={1600} className="h-full w-full object-cover" />
           </div>
           <div className="mt-6 text-sm text-muted-foreground">Paul Boyfield, Founder &amp; Principal</div>
         </div>
