@@ -39,7 +39,7 @@ function Contact() {
             </div>
             <div>
               <dt className="eyebrow">Telephone</dt>
-              <dd className="mt-2 font-serif text-2xl text-primary">+44 (0)20 0000 0000</dd>
+              <dd className="mt-2 font-serif text-2xl text-primary"><a href="tel:+447917764148" className="link-underline">07917 764 148</a></dd>
             </div>
             <div>
               <dt className="eyebrow">LinkedIn</dt>
