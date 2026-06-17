@@ -1,7 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import hero from "@/assets/hero-westminster.jpg";
-import sectors from "@/assets/sectors-landscape.jpg";
+import heroAsset from "@/assets/manchester-skyline.jpg.asset.json";
+import sectorsAsset from "@/assets/manchester-skyline-wide.jpg.asset.json";
+import shieldAsset from "@/assets/racefield-shield.png.asset.json";
+const hero = heroAsset.url;
+const sectors = sectorsAsset.url;
+const shield = shieldAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -42,6 +46,7 @@ function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
         </div>
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-28 pb-32 md:pt-40 md:pb-48">
+          <img src={shield} alt="Racefield Consulting shield emblem" width={140} height={140} className="h-28 w-28 md:h-36 md:w-36 object-contain -ml-2 mb-2" />
           <div className="eyebrow"><span className="rule" />Racefield Consulting</div>
           <h1 className="mt-6 font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[0.98] max-w-4xl">
             Political insight.<br />
