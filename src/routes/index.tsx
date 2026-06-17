@@ -1,10 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import heroAsset from "@/assets/manchester-skyline.jpg.asset.json";
-import sectorsAsset from "@/assets/manchester-skyline-wide.jpg.asset.json";
+import hero from "@/assets/hero-westminster.jpg";
+import sectors from "@/assets/sectors-landscape.jpg";
 import shieldAsset from "@/assets/racefield-shield.png.asset.json";
-const hero = heroAsset.url;
-const sectors = sectorsAsset.url;
 const shield = shieldAsset.url;
 
 export const Route = createFileRoute("/")({
