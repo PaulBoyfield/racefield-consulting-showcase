@@ -29,18 +29,17 @@ const ways = [
 function HowIWork() {
   return (
     <SiteLayout>
-      <section className="mx-auto max-w-7xl px-6 lg:px-10 pt-28 pb-20 md:pt-36 md:pb-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <div className="eyebrow"><span className="rule" />How I Work</div>
-            <h1 className="mt-6 font-serif text-5xl md:text-7xl leading-[1.02] max-w-4xl">Senior advice. Personally delivered.</h1>
-            <p className="mt-8 max-w-2xl text-lg text-foreground/75 leading-relaxed">
-              Racefield is deliberately different from a traditional consultancy. Clients work directly with Paul Boyfield throughout every stage of an assignment — no account teams, no junior consultants, no layers between adviser and client.
-            </p>
-          </div>
-          <div className="flex items-center justify-center">
-            <img src={elecMap} alt="" width={1600} height={2200} className="max-h-[60vh] w-auto object-contain" />
-          </div>
+      <section
+        className="relative w-full bg-cover bg-center bg-no-repeat pt-36 pb-28 md:pt-48"
+        style={{ backgroundImage: `url(${elecMap})`, minHeight: '80vh' }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/20" />
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
+          <div className="eyebrow"><span className="rule" />How I Work</div>
+          <h1 className="mt-6 font-serif text-5xl md:text-7xl leading-[1.02] max-w-4xl">Senior advice. Personally delivered.</h1>
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-foreground/90">
+            Racefield is deliberately different from a traditional consultancy. Clients work directly with Paul Boyfield throughout every stage of an assignment — no account teams, no junior consultants, no layers between adviser and client.
+          </p>
         </div>
       </section>
 
