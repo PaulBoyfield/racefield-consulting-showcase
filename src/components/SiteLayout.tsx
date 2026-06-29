@@ -1,6 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
-import logo from "@/assets/racefield-logo.png.asset.json";
+import logoAsset from "@/assets/racefield-logo.png.asset.json";
+import { assetUrl } from "@/lib/asset-url";
+const logoUrl = assetUrl(logoAsset);
 
 const NAV = [
   { to: "/", label: "Home" },
