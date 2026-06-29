@@ -46,10 +46,9 @@ function About() {
           <div id="biography" className="eyebrow"><span className="rule" />Biography</div>
           <h2 className="mt-6 font-serif text-4xl md:text-5xl leading-[1.05]">A career shaped by politics, policy and place.</h2>
           <div className="mt-8 prose-r space-y-5 text-[1.02rem]">
-            <p>Paul Boyfield is one of the UK's most experienced planning communications and political strategy advisers. For more than 25 years he has advised organisations involved in planning, development, regeneration and infrastructure on how to navigate political environments, engage effectively with stakeholders and build support for complex projects.</p>
-            <p>His experience spans major residential developments, strategic land promotion, logistics, commercial development, renewable energy and nationally significant infrastructure projects.</p>
-            <p>Before entering consultancy, Paul worked as a researcher in the House of Commons, a speechwriter in the House of Lords and for the European Policy Forum think tank — providing an early grounding in politics, public policy and political communications.</p>
-            <p>Today, Racefield Consulting allows Paul to work directly with a select number of clients, providing senior strategic advice personally on every assignment.</p>
+            <p>Paul Boyfield is one of the UK's leading advisers on the politics of planning and development, specialising in political strategy, planning communications and stakeholder engagement. For more than 25 years, he has helped developers, landowners, investors and infrastructure providers navigate the political and communications challenges associated with complex projects.</p>
+            <p>Throughout his career, Paul has advised on major residential developments, strategic land promotion, regeneration schemes, logistics, commercial property, renewable energy and nationally significant infrastructure projects. He is recognised for combining political insight, commercial understanding and communications expertise to help clients position projects in ways that decision-makers can support.</p>
+            <p>Before entering consultancy, Paul worked as a researcher in the House of Commons, a speechwriter in the House of Lords and for the European Policy Forum, providing an early grounding in politics, public policy and political communications.</p>
           </div>
         </div>
       </section>
@@ -62,11 +61,23 @@ function About() {
             <h2 className="mt-6 font-serif text-4xl md:text-5xl leading-[1.05]">From founding Lexington North to Racefield today.</h2>
           </div>
           <div className="lg:col-span-7 lg:col-start-6 prose-r space-y-5 text-[1.02rem]">
-            <p>Paul founded Lexington North and built it into the largest specialist planning communications consultancy in Northern England. Under his leadership, the business advised some of the country's leading developers, land promoters and infrastructure providers, earning a reputation for strategic thinking, political understanding and high‑quality client service.</p>
-            <p>The business grew successfully over many years before being sold to a major international communications group.</p>
-            <p>Alongside his consultancy work, Paul has developed a reputation as one of the sector's leading practitioners in planning communications, stakeholder engagement and political strategy — helping shape many of the approaches now widely used across the industry.</p>
-            <p>Today, Racefield represents a return to a more personal model of consultancy, allowing clients to work directly with Paul and benefit from his experience without the layers typically found within larger agencies.</p>
+            <p>In 2009, Paul founded Lexington North and grew it into the largest specialist planning communications consultancy in Northern England. Under his leadership, the business advised many of the UK's leading developers, land promoters, infrastructure providers and public bodies, earning a reputation as one of the country's foremost planning communications consultancies. In 2022, the company was successfully acquired by a major international communications group, after which Paul continued to provide senior strategic advice on nationally significant projects.</p>
+            <p>Over more than two decades, Paul has helped shape the planning communications profession itself. He has designed, managed and overseen hundreds of consultation and stakeholder engagement programmes, pioneering many of the techniques and approaches that are now widely used across the industry.</p>
+            <p>Today, Paul works directly with a select number of clients through Racefield Consulting, providing senior strategic advice personally on every assignment. Racefield reflects a deliberate return to a more personal model of consultancy, giving clients direct access to experienced judgement without the layers typically found within larger agencies.</p>
           </div>
+        </div>
+      </section>
+
+      {/* Other Appointments */}
+      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-12">
+        <div className="lg:col-span-4">
+          <div id="appointments" className="eyebrow"><span className="rule" />Other Appointments</div>
+          <h2 className="mt-6 font-serif text-4xl md:text-5xl leading-[1.05]">Senior roles in property and development.</h2>
+        </div>
+        <div className="lg:col-span-7 lg:col-start-6 prose-r space-y-5 text-[1.02rem]">
+          <p>Alongside Racefield Consulting, Paul also holds senior appointments within the property and development sector.</p>
+          <p>He is currently a Partner at <a href="https://www.tearealestate.xyz/en" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:no-underline">TEA Real Estate</a>, a specialist development company focused on identifying, promoting and delivering opportunities within the rapidly expanding data centre sector. This role provides valuable developer-side experience, complementing more than 25 years advising clients on planning strategy, political engagement and communications.</p>
+          <p>Paul also undertakes a small number of independent advisory appointments, allowing him to remain closely involved in the commercial realities of development and investment while continuing to provide strategic advice through Racefield Consulting.</p>
         </div>
       </section>
 
