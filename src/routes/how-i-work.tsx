@@ -29,11 +29,20 @@ const ways = [
 function HowIWork() {
   return (
     <SiteLayout>
-      <PageHero
-        eyebrow="How I Work"
-        title="Senior advice. Personally delivered."
-        intro="Racefield is deliberately different from a traditional consultancy. Clients work directly with Paul Boyfield throughout every stage of an assignment — no account teams, no junior consultants, no layers between adviser and client."
-      />
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img src={elecMap} alt="" width={1600} height={2200} className="h-full w-full object-cover object-top" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        </div>
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-28 pb-20 md:pt-36 md:pb-24">
+          <div className="eyebrow"><span className="rule" />How I Work</div>
+          <h1 className="mt-6 font-serif text-5xl md:text-7xl leading-[1.02] max-w-4xl">Senior advice. Personally delivered.</h1>
+          <p className="mt-8 max-w-2xl text-lg text-foreground/75 leading-relaxed">
+            Racefield is deliberately different from a traditional consultancy. Clients work directly with Paul Boyfield throughout every stage of an assignment — no account teams, no junior consultants, no layers between adviser and client.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5">
