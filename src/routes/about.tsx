@@ -46,10 +46,9 @@ function About() {
           <div id="biography" className="eyebrow"><span className="rule" />Biography</div>
           <h2 className="mt-6 font-serif text-4xl md:text-5xl leading-[1.05]">A career shaped by politics, policy and place.</h2>
           <div className="mt-8 prose-r space-y-5 text-[1.02rem]">
-            <p>Paul Boyfield is one of the UK's most experienced planning communications and political strategy advisers. For more than 25 years he has advised organisations involved in planning, development, regeneration and infrastructure on how to navigate political environments, engage effectively with stakeholders and build support for complex projects.</p>
-            <p>His experience spans major residential developments, strategic land promotion, logistics, commercial development, renewable energy and nationally significant infrastructure projects.</p>
-            <p>Before entering consultancy, Paul worked as a researcher in the House of Commons, a speechwriter in the House of Lords and for the European Policy Forum think tank — providing an early grounding in politics, public policy and political communications.</p>
-            <p>Today, Racefield Consulting allows Paul to work directly with a select number of clients, providing senior strategic advice personally on every assignment.</p>
+            <p>Paul Boyfield is one of the UK's leading advisers on the politics of planning and development, specialising in political strategy, planning communications and stakeholder engagement. For more than 25 years, he has helped developers, landowners, investors and infrastructure providers navigate the political and communications challenges associated with complex projects.</p>
+            <p>Throughout his career, Paul has advised on major residential developments, strategic land promotion, regeneration schemes, logistics, commercial property, renewable energy and nationally significant infrastructure projects. He is recognised for combining political insight, commercial understanding and communications expertise to help clients position projects in ways that decision-makers can support.</p>
+            <p>Before entering consultancy, Paul worked as a researcher in the House of Commons, a speechwriter in the House of Lords and for the European Policy Forum, providing an early grounding in politics, public policy and political communications.</p>
           </div>
         </div>
       </section>
