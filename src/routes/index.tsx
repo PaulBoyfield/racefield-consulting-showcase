@@ -3,8 +3,9 @@ import { SiteLayout } from "@/components/SiteLayout";
 import heroAsset from "@/assets/manchester-skyline.jpg.asset.json";
 import sectors from "@/assets/sectors-landscape.jpg";
 import shieldAsset from "@/assets/racefield-shield.png.asset.json";
-const hero = heroAsset.url;
-const shield = shieldAsset.url;
+import { assetUrl } from "@/lib/asset-url";
+const hero = assetUrl(heroAsset);
+const shield = assetUrl(shieldAsset);
 
 export const Route = createFileRoute("/")({
   head: () => ({
