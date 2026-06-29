@@ -29,7 +29,7 @@ function Contact() {
 
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-16">
         <div className="lg:col-span-5">
-          <img src={shieldAsset.url} alt="Racefield Consulting shield emblem" width={120} height={120} className="h-24 w-24 object-contain -ml-1 mb-6" />
+          <img src={shieldUrl} alt="Racefield Consulting shield emblem" width={120} height={120} className="h-24 w-24 object-contain -ml-1 mb-6" />
           <div className="eyebrow"><span className="rule" />Racefield Consulting</div>
           <h2 className="mt-6 font-serif text-3xl md:text-4xl leading-[1.1]">Paul Boyfield</h2>
           <p className="mt-2 text-foreground/70">Founder &amp; Principal</p>
