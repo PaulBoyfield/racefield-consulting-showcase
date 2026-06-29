@@ -5,3 +5,11 @@
 [build.environment]
   NITRO_PRESET = "netlify"
   NODE_VERSION = "20"
+
+# Proxy Lovable CDN-hosted assets (referenced via /__l5e/...) through to the
+# stable Lovable asset origin so images load on the Netlify deployment.
+[[redirects]]
+  from = "/__l5e/*"
+  to = "https://project--b845fc43-5590-40e0-a59e-cf829ae24a5e.lovable.app/__l5e/:splat"
+  status = 200
+  force = true
