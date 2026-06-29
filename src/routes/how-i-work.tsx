@@ -30,7 +30,7 @@ function HowIWork() {
   return (
     <SiteLayout>
       <section
-        className="relative w-full bg-cover bg-center bg-no-repeat pt-36 pb-28 md:pt-48 createdAt="
+        className="relative w-full bg-cover bg-center bg-no-repeat pt-36 pb-28 md:pt-48"
         style={{ backgroundImage: `url(${elecMap})`, minHeight: '80vh' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/20" />
