@@ -31,7 +31,7 @@ function HowIWork() {
     <SiteLayout>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={elecMap} alt="" width={1600} height={2200} className="h-full w-full object-cover object-top" />
+          <img src={elecMap} alt="" width={1600} height={2200} className="h-full w-full object-contain object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
         </div>
