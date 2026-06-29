@@ -1,6 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
-import logo from "@/assets/racefield-logo.png.asset.json";
+import logoAsset from "@/assets/racefield-logo.png.asset.json";
+import { assetUrl } from "@/lib/asset-url";
+const logoUrl = assetUrl(logoAsset);
 
 const NAV = [
   { to: "/", label: "Home" },
@@ -19,7 +21,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 backdrop-blur bg-background/85 border-b border-border/60">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3" aria-label="Racefield Consulting home">
-            <img src={logo.url} alt="Racefield Consulting" className="h-12 w-auto" />
+            <img src={logoUrl} alt="Racefield Consulting" className="h-12 w-auto" />
           </Link>
           <nav className="hidden lg:flex items-center gap-7">
             {NAV.slice(1, -1).map((n) => (
