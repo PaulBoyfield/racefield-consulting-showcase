@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Racefield Consulting — Political insight. Strategic communications." },
-      { name: "twitter:description", content: "Racefield Consulting is the advisory practice of Paul Boyfield, providing senior political, stakeholder and planning communications advice to UK developers, landowners and infrastructure providers." },
+      { name: "google-site-verification", content: "GGjYgLWJK0VUui42zk-ugbbOaqEpzoL3c51-8-WAThw" },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/106ba5c9-a128-4d7a-8be5-e1744a6fb11c/id-preview-b1207332--b845fc43-5590-40e0-a59e-cf829ae24a5e.lovable.app-1782738295677.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/106ba5c9-a128-4d7a-8be5-e1744a6fb11c/id-preview-b1207332--b845fc43-5590-40e0-a59e-cf829ae24a5e.lovable.app-1782738295677.png" },
     ],
