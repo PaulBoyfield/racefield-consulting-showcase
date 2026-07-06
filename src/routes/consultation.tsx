@@ -48,11 +48,19 @@ const delivery = [
 function Consultation() {
   return (
     <SiteLayout>
-      <PageHero
-        eyebrow="Consultation & Delivery Partners"
-        title="Strategic oversight, specialist delivery."
-        intro="Public consultation remains an important part of many development and infrastructure projects. Over more than two decades, Paul has designed, managed and advised on consultation programmes across a wide range of sectors."
-      />
+      <section
+        className="relative w-full bg-no-repeat pt-36 pb-28 md:pt-48"
+        style={{ backgroundImage: `url(${consultationBg})`, minHeight: '80vh', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/20" />
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
+          <div className="eyebrow"><span className="rule" />Consultation &amp; Delivery Partners</div>
+          <h1 className="mt-6 font-serif text-5xl md:text-7xl leading-[1.02] max-w-4xl">Strategic oversight, specialist delivery.</h1>
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-foreground/90">
+            Public consultation remains an important part of many development and infrastructure projects. Over more than two decades, Paul has designed, managed and advised on consultation programmes across a wide range of sectors.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5">
