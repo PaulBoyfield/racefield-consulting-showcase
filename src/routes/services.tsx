@@ -1,5 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { SiteLayout, PageHero } from "@/components/SiteLayout";
+import { SiteLayout } from "@/components/SiteLayout";
+import councilChamberAsset from "@/assets/council-chamber.jpg.asset.json";
+import { assetUrl } from "@/lib/asset-url";
+const councilChamber = assetUrl(councilChamberAsset);
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -54,11 +57,19 @@ const services = [
 function Services() {
   return (
     <SiteLayout>
-      <PageHero
-        eyebrow="Services"
-        title="Five disciplines. One senior adviser."
-        intro="Racefield concentrates on the areas where experience and judgement add the greatest value — political analysis, stakeholder strategy, communications leadership and reputation management."
-      />
+      <section
+        className="relative w-full bg-no-repeat pt-36 pb-28 md:pt-48"
+        style={{ backgroundImage: `url(${councilChamber})`, minHeight: '80vh', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/20" />
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
+          <div className="eyebrow"><span className="rule" />Services</div>
+          <h1 className="mt-6 font-serif text-5xl md:text-7xl leading-[1.02] max-w-4xl">Five disciplines. One senior adviser.</h1>
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-foreground/90">
+            Racefield concentrates on the areas where experience and judgement add the greatest value — political analysis, stakeholder strategy, communications leadership and reputation management.
+          </p>
+        </div>
+      </section>
 
       {/* Index */}
       <section className="border-b border-border/60 bg-card">
