@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { SiteLayout, PageHero } from "@/components/SiteLayout";
+import { SiteLayout } from "@/components/SiteLayout";
 import shieldAsset from "@/assets/racefield-shield.png.asset.json";
 import { assetUrl } from "@/lib/asset-url";
 const shieldUrl = assetUrl(shieldAsset);
@@ -21,13 +21,7 @@ function Contact() {
   const [sent, setSent] = useState(false);
   return (
     <SiteLayout>
-      <PageHero
-        eyebrow="Contact"
-        title="Let's talk."
-        intro="If you are promoting a development project, preparing a planning application, managing political risk or seeking strategic communications advice, Racefield would be pleased to discuss how it can help."
-      />
-
-      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-16">
+      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 pt-28 md:pt-40 grid lg:grid-cols-12 gap-16">
         <div className="lg:col-span-5">
           <img src={shieldUrl} alt="Racefield Consulting shield emblem" width={120} height={120} className="h-24 w-24 object-contain -ml-1 mb-6" />
           <div className="eyebrow"><span className="rule" />Racefield Consulting</div>
