@@ -1,5 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { SiteLayout, PageHero } from "@/components/SiteLayout";
+import { SiteLayout } from "@/components/SiteLayout";
+import housingAsset from "@/assets/housing-development.jpg.asset.json";
+import { assetUrl } from "@/lib/asset-url";
+const housingBg = assetUrl(housingAsset);
 
 export const Route = createFileRoute("/who-i-work-with")({
   head: () => ({
@@ -25,11 +28,19 @@ const clients = [
 function WhoIWorkWith() {
   return (
     <SiteLayout>
-      <PageHero
-        eyebrow="Who I Work With"
-        title="Organisations shaping the built environment."
-        intro="Racefield works with organisations involved in planning, development, regeneration and infrastructure — from individual landowners and developers to national infrastructure providers and the agencies that support them."
-      />
+      <section
+        className="relative w-full bg-no-repeat pt-36 pb-28 md:pt-48"
+        style={{ backgroundImage: `url(${housingBg})`, minHeight: '80vh', backgroundSize: 'cover', backgroundPosition: 'center bottom' }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/20" />
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
+          <div className="eyebrow"><span className="rule" />Who I Work With</div>
+          <h1 className="mt-6 font-serif text-5xl md:text-7xl leading-[1.02] max-w-4xl">Organisations shaping the built environment.</h1>
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-foreground/90">
+            Racefield works with organisations involved in planning, development, regeneration and infrastructure — from individual landowners and developers to national infrastructure providers and the agencies that support them.
+          </p>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28">
         <div className="grid md:grid-cols-2 gap-px bg-border">
