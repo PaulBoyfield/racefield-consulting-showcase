@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import elecMapAsset from "@/assets/elec-map-for-website.jpg.asset.json";
+import palaceAsset from "@/assets/palace-of-westminster.jpg.asset.json";
 import { assetUrl } from "@/lib/asset-url";
-const elecMap = assetUrl(elecMapAsset);
+const palace = assetUrl(palaceAsset);
 
 export const Route = createFileRoute("/how-i-work")({
   head: () => ({
@@ -31,7 +31,7 @@ function HowIWork() {
     <SiteLayout>
       <section
         className="relative w-full bg-no-repeat pt-36 pb-28 md:pt-48"
-        style={{ backgroundImage: `url(${elecMap})`, minHeight: '80vh', backgroundSize: '90% auto', backgroundPosition: 'right bottom' }}
+        style={{ backgroundImage: `url(${palace})`, minHeight: '80vh', backgroundSize: '90% auto', backgroundPosition: 'right bottom' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/20" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
