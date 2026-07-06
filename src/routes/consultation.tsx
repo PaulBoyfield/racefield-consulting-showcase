@@ -1,5 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { SiteLayout, PageHero } from "@/components/SiteLayout";
+import { SiteLayout } from "@/components/SiteLayout";
+import consultationAsset from "@/assets/public-consultation.jpg.asset.json";
+import { assetUrl } from "@/lib/asset-url";
+const consultationBg = assetUrl(consultationAsset);
 
 export const Route = createFileRoute("/consultation")({
   head: () => ({
