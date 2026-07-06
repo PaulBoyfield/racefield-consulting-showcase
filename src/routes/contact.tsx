@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { SiteLayout, PageHero } from "@/components/SiteLayout";
+import { SiteLayout } from "@/components/SiteLayout";
 import shieldAsset from "@/assets/racefield-shield.png.asset.json";
 import { assetUrl } from "@/lib/asset-url";
 const shieldUrl = assetUrl(shieldAsset);
