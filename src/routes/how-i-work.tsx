@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import palaceAsset from "@/assets/palace-of-westminster.jpg.asset.json";
+import heroWestminsterAsset from "@/assets/hero-westminster.jpg.asset.json";
 import { assetUrl } from "@/lib/asset-url";
-const palace = assetUrl(palaceAsset);
+const heroWestminster = assetUrl(heroWestminsterAsset);
 
 export const Route = createFileRoute("/how-i-work")({
   head: () => ({
