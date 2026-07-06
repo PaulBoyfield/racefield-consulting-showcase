@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import elecMapAsset from "@/assets/elec-map-for-website.jpg.asset.json";
+import palaceAsset from "@/assets/palace-of-westminster.jpg.asset.json";
 import { assetUrl } from "@/lib/asset-url";
-const elecMap = assetUrl(elecMapAsset);
+const palace = assetUrl(palaceAsset);
 
 export const Route = createFileRoute("/how-i-work")({
   head: () => ({
