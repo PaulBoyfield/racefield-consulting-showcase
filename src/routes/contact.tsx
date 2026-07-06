@@ -21,7 +21,7 @@ function Contact() {
   const [sent, setSent] = useState(false);
   return (
     <SiteLayout>
-      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 pt-28 md:pt-40 grid lg:grid-cols-12 gap-16">
+      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20 pt-20 md:pt-28 grid lg:grid-cols-12 gap-16">
         <div className="lg:col-span-5">
           <img src={shieldUrl} alt="Racefield Consulting shield emblem" width={120} height={120} className="h-24 w-24 object-contain -ml-1 mb-6" />
           <div className="eyebrow"><span className="rule" />Racefield Consulting</div>
