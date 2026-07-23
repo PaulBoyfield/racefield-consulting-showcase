@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout, PageHero } from "@/components/SiteLayout";
-import portraitAsset from "@/assets/paul-portrait-web.png.asset.json";
+import portraitAsset from "@/assets/paul-portrait-web.jpg.asset.json";
 import { assetUrl } from "@/lib/asset-url";
 const portrait = { url: assetUrl(portraitAsset) };
 
