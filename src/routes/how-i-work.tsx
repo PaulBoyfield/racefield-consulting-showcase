@@ -43,12 +43,10 @@ function HowIWork() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28 grid lg:grid-cols-12 gap-12">
-        <div className="lg:col-span-5">
-          <div className="eyebrow"><span className="rule" />The approach</div>
-          <h2 className="mt-6 font-serif text-4xl md:text-5xl leading-[1.05]">Direct access to 25 years of experience.</h2>
-        </div>
-        <div className="lg:col-span-7 prose-r space-y-5 text-[1.02rem]">
+      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-20 md:py-28">
+        <div className="eyebrow"><span className="rule" />The approach</div>
+        <h2 className="mt-6 font-serif text-4xl md:text-5xl leading-[1.05]">Direct access to 25 years of experience.</h2>
+        <div className="mt-8 max-w-3xl prose-r space-y-5 text-[1.02rem]">
           <p>This approach provides direct access to more than 25 years of experience, and ensures advice remains practical, responsive and focused on outcomes.</p>
           <p>Engagements are scoped to the brief — sometimes a single strategic review, sometimes a multi‑year retained relationship through to consent and delivery.</p>
         </div>
